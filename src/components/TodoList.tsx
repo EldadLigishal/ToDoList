@@ -30,7 +30,7 @@ const TodoList: React.FC<Props> = ({
       </div>
       <div className="todos remove">
         <span className="todos__heading">COMPLETED TASKS</span>
-        {todos.map((todo) => (
+        {completed.map((todo) => (
           <SingleTodo
             todo={todo}
             todos={completed}
